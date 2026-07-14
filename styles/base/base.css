@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--ff-base);
+  background-color: var(--white);
+}
+
+.content {
+  flex: 1;
+}
+
+.container {
+  width: clamp(23.438rem, 1.073rem + 95.42vw, 46.875rem);
+  padding-inline: 2.188rem;
+  margin-inline: auto;
+}
