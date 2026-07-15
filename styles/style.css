@@ -6,6 +6,10 @@
 @import url("./base/typography.css");
 /* Components */
 @import url("./components/link-button.css");
+@import url("./components/section-number.css");
+@import url("./components/gallery.css");
+@import url("./components/tag.css");
 /* Layout */
 @import url("./layout/header.css");
 @import url("./layout/hero.css");
+@import url("./layout/advantages.css");

@@ -1,0 +1,32 @@
+.advantages {
+  padding-top: clamp(7rem, 5.569rem + 6.107vw, 8.5rem);
+  padding-bottom: clamp(4rem, 2.5rem + 3.125vw, 4.5rem);
+}
+
+.advantages__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.advantages__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 31.5rem;
+  text-align: center;
+}
+
+.advantages__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.advantage__title {
+  color: var(--slate-900);
+}

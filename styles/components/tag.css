@@ -1,0 +1,4 @@
+.tag {
+  text-transform: uppercase;
+  color: var(--cyan-600);
+}

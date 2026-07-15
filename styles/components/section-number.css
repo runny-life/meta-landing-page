@@ -1,0 +1,21 @@
+.section-number {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid var(--slate-300);
+  border-radius: 50%;
+}
+
+.section-number::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 5rem;
+  width: 0.063rem;
+  background-color: var(--slate-300);
+}
