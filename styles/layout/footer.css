@@ -1,0 +1,28 @@
+.footer {
+  padding-top: 6.75rem;
+  color: var(--white);
+}
+
+.footer__inner {
+  position: relative;
+  padding-block: clamp(4rem, -5rem + 18.75vw, 7rem);
+  padding-inline: clamp(2rem, -7rem + 18.75vw, 5rem);
+  background:
+    linear-gradient(rgba(77, 150, 169, 0.8), rgba(77, 150, 169, 0.8)),
+    url("../../assets/mobile/image-footer.jpg") top/cover no-repeat;
+}
+
+.footer__number {
+  position: absolute;
+  bottom: 91%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--slate-600);
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  text-align: center;
+}
