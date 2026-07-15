@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../../assets/fonts/red-hat-display-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../../assets/fonts/red-hat-display-900.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

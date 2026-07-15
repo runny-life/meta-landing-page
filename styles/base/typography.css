@@ -1,0 +1,30 @@
+.text-preset-1 {
+  font-weight: var(--fw-black);
+  font-size: clamp(2.5rem, 1.633rem + 3.698vw, 4rem);
+  line-height: 1.1;
+}
+
+.text-preset-2 {
+  font-weight: var(--fw-black);
+  font-size: clamp(2rem, 1.711rem + 1.233vw, 2.5rem);
+  line-height: 1.1;
+}
+
+.text-preset-3 {
+  font-weight: var(--fw-black);
+  font-size: clamp(0.75rem, 0.606rem + 0.616vw, 1rem);
+  line-height: 1.1;
+  letter-spacing: 4px;
+}
+
+.text-preset-4 {
+  font-weight: var(--fw-medium);
+  font-size: clamp(1rem, 0.625rem + 0.781vw, 1.125rem);
+  line-height: 1.5;
+}
+
+.text-preset-5 {
+  font-weight: var(--fw-black);
+  font-size: 1rem;
+  line-height: 1.5;
+}

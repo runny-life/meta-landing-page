@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   font-family: var(--ff-base);
   background-color: var(--white);
+  color: var(--slate-600);
 }
 
 .content {
