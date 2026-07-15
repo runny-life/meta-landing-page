@@ -1,6 +1,7 @@
 .advantages {
   padding-top: clamp(7rem, 5.569rem + 6.107vw, 8.5rem);
   padding-bottom: clamp(4rem, 2.5rem + 3.125vw, 4.5rem);
+  overflow: hidden;
 }
 
 .advantages__inner {
