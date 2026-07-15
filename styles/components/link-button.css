@@ -9,6 +9,12 @@
   color: var(--white);
   background-color: var(--purple-600);
   border-radius: 29px;
+  transition: background-color 0.2s;
+}
+
+.link-button:focus-visible {
+  outline: 2px dashed var(--purple-600);
+  outline-offset: 4px;
 }
 
 .link-button span {
@@ -19,6 +25,20 @@
   background-color: var(--cyan-600);
 }
 
+.link-button--cyan:focus-visible {
+  outline-color: var(--cyan-600);
+}
+
 .link-button--cyan span {
   color: var(--cyan-300);
+}
+
+@media (hover: hover) {
+  .link-button:hover {
+    background-color: var(--purple-400);
+  }
+
+  .link-button--cyan:hover {
+    background-color: var(--cyan-400);
+  }
 }
