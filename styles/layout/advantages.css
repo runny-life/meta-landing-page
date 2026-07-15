@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
-  max-width: 31.5rem;
+  width: clamp(19.438rem, 7.927rem + 49.109vw, 31.5rem);
   text-align: center;
 }
 
@@ -29,4 +29,11 @@
 
 .advantage__title {
   color: var(--slate-900);
+  white-space: pre-line;
+}
+
+@media (min-width: 768px) {
+  .advantages__info {
+    width: clamp(31.5rem, 24rem + 15.625vw, 34rem);
+  }
 }

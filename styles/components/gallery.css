@@ -19,3 +19,14 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gallery__image-wrapper {
+    width: clamp(9.5rem, -10rem + 40.625vw, 16rem);
+    height: clamp(10rem, -8rem + 37.5vw, 16rem);
+  }
+}
