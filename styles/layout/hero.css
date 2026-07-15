@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  row-gap: clamp(3rem, 1.569rem + 6.107vw, 4.5rem);
   padding-block: 4rem;
 }
 
@@ -24,14 +24,16 @@
 .hero__inner {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: clamp(1.5rem, 0rem + 3.125vw, 2rem);
   text-align: center;
 }
 
 .hero__info {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: clamp(1.5rem, 0rem + 3.125vw, 2rem);
+  width: clamp(19.063rem, 10.534rem + 36.387vw, 28rem);
+  margin: 0 auto;
 }
 
 .hero__title {
@@ -39,7 +41,48 @@
 }
 
 .hero__actions {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 1rem;
+  max-width: 23.188rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .hero__actions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    overflow: hidden;
+  }
+
+  .hero__image-wrapper {
+    display: contents;
+  }
+
+  .hero__image-mobile {
+    display: none;
+  }
+
+  .hero__image {
+    display: block;
+  }
+
+  .hero__image--left {
+    order: -1;
+  }
+
+  .hero__image--right {
+    order: 2;
+  }
+
+  .hero__inner {
+    flex: 1;
+  }
 }
