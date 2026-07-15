@@ -1,0 +1,24 @@
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 1rem 2.5rem;
+  margin: 0 auto;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--purple-600);
+  border-radius: 29px;
+}
+
+.link-button span {
+  color: var(--purple-300);
+}
+
+.link-button--cyan {
+  background-color: var(--cyan-600);
+}
+
+.link-button--cyan span {
+  color: var(--cyan-300);
+}

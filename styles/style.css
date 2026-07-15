@@ -5,6 +5,7 @@
 @import url("./base/base.css");
 @import url("./base/typography.css");
 /* Components */
+@import url("./components/link-button.css");
 /* Layout */
 @import url("./layout/header.css");
 @import url("./layout/hero.css");
